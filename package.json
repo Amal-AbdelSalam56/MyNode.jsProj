@@ -1,0 +1,25 @@
+{
+  "name": "day2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "set SECRET=jdr6tj1d6j1d6tj1d6y15s6h1r65h1dr6t51s26 && nodemon app.js",
+    "test": "nodemon  jasmine"
+  },
+  "author": "amal ibrahim",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.5"
+  },
+  "devDependencies": {
+    "jasmine": "^4.5.0",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.1"
+  },
+  "description": ""
+}
